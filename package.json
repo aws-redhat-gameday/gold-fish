@@ -1,0 +1,8 @@
+{
+    "name": "gold-fish",
+    "version": "1.0.0",
+    "description": "The Gold Fish game",
+    "scripts": {
+        "start": "node index.js"
+    }
+}
