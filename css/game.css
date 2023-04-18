@@ -81,3 +81,45 @@ header {
 
   }
 }
+
+#yacht {
+  visibility: hidden;
+  display: none;
+  position:fixed;
+  bottom:0px;
+  left:50%;
+  margin-left: -2000px;
+}
+
+#goldfish {
+  visibility: hidden;
+  display: none;
+  z-index: 1;
+}
+
+#logo-game {
+  visibility: hidden; 
+  display: none;
+  z-index: 1;
+}
+
+#credits {
+  visibility: hidden;
+  margin: 50px;
+  text-align: center;
+
+}
+
+#credits a {
+  color: white;
+  margin-top: 10px;
+  font-size: 8px;
+}
+
+#win {
+  visibility: hidden; 
+  display: none;
+  color: white;
+  font-size: 1.5em;
+  margin-top: 20px;
+}

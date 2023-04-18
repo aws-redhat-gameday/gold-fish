@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/game.css">
 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
   <script defer src="../js/game.js"></script>
 
   <title>Gold Fish</title>
@@ -19,10 +24,24 @@
   <main>
     <header>
       <span class="player"></span>
-      <span>Tempo: <span class="timer">00</span></span>
+      <span>Time: <span class="timer">00</span></span>
     </header>
 
-    <div class="grid"></div>
+
+    <img id="logo-game" src="../images/logo-game.png" />
+    <img id="goldfish" width="30%"  src="../images/vecteezy_happy-goldfish.png" /> 
+    <span id="win">You win!</span>
+    <img id="yacht" width="50%" src="../images/vecteezy_yacht.png" /> 
+
+    <div id="grid" class="grid animate__animated animate__shakeY"></div>
+
+    <div id="credits">
+      <a href="https://www.vecteezy.com/free-vector/yacht">Yacht Vectors by Vecteezy</a>
+      <br />
+      <br />
+      <a href="https://www.vecteezy.com/free-vector/goldfish">Goldfish Vectors by Vecteezy</a>
+    </div>
+
   </main>
 
 </body>
